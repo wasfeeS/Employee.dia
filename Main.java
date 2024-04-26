@@ -9,15 +9,15 @@ public class Main {
         String managerName = scanner.nextLine();
         System.out.print("Age: ");
         int managerAge = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
         System.out.print("Salary: ");
         double managerSalary = scanner.nextDouble();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
         System.out.print("Address: ");
         String managerAddress = scanner.nextLine();
         System.out.print("Work Bonus: ");
         int managerWorkBonus = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
         System.out.print("Holidays: ");
         String managerHolidays = scanner.nextLine();
 
@@ -31,6 +31,6 @@ public class Main {
         System.out.println("Work Bonus: " + manager.getWorkBonus());
         System.out.println("Holidays: " + manager.getHolidays());
 
-        // Similarly, input and display details for FullTime and PartTime employees
+        
     }
 }
